@@ -1,0 +1,104 @@
+/* PROGRESS PAGE SPECIFIC STYLES */
+
+/* -------------------  MOBILE  --------------------- */
+header {   
+    height: 300px;
+} 
+
+h3 {
+    color: white;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.leader-div{
+    border-radius: 6px;
+    -webkit-box-shadow: 5px 7px 5px 0px rgba(237,230,237,1);
+    -moz-box-shadow: 5px 7px 5px 0px rgba(237,230,237,1);
+    box-shadow: 5px 7px 5px 0px rgba(237,230,237,1);
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #fbf5f5;
+    cursor: pointer;
+    transition: all .6s;
+    background-color: #fbf5f5;
+    margin: 0 auto;
+    width: 350px; 
+    color: black;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.progressDiv {
+
+}
+
+.resultsDiv {
+    margin-left: 50px;
+    text-align: left;
+}
+
+main#two-columns {
+    margin: 50px 0;
+    display: flex;
+}
+
+main#two-columns section {
+    max-width: 50vw;
+}
+
+section#accelerate button {
+    height: 300px;
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 180%;
+    background-color: green;
+    border-color: rgb(14, 166, 6);
+    cursor: pointer;
+}
+
+#big-numbers {
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+    header {
+        height: 250px;
+    }
+
+    h3 {
+        color: black;
+        font-weight: normal;
+        font-size: 25px;
+    }
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+    header {
+        height: 200px;
+    }
+
+    h3 {
+        color: black;
+        font-weight: normal;
+        font-size: 25px;
+    }
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+    header {
+        height: 200px;
+    }
+
+    h3 {
+        color: black;
+        font-weight: normal;
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,61 @@
+/* RESULTS PAGE SPECIFIC STYLES */
+.result-page {
+    justify-content: center;
+    align-items: center;
+}
+
+.button-div {
+    padding-top: 20px;
+}
+
+/* -------------------  MOBILE  --------------------- */
+header {   
+    height: 300px;
+}
+
+h3 {
+    color: black;
+    font-weight: normal;
+    font-size: 25px;
+  }
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+header {   
+        height: 250px;
+    }
+
+    h3 {
+        color: black;
+        font-weight: normal;
+        font-size: 25px;
+    }
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+    header {   
+        height: 200px;
+    }
+
+    h3 {
+        color: black;
+        font-weight: normal;
+        font-size: 25px;
+    }
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+    header {   
+        height: 200px;
+    }
+
+    h3 {
+        color: black;
+        font-weight: normal;
+        font-size: 25px;
+    }
+}

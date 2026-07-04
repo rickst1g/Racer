@@ -1,0 +1,53 @@
+/* CREATE PAGE SPECIFIC STYLES */
+
+/* -------------------  MOBILE  --------------------- */
+header {   
+    height: 300px;
+}
+
+h3 {
+    color: white;
+    font-weight: normal;
+    font-size: 25px;
+  }
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+  header {
+    height: 250px;
+  }
+
+  h3 {
+    color: black;
+    font-weight: normal;
+    font-size: 25px;
+  }
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+  header {
+    height: 200px;
+  }
+
+  h3 {
+    color: whblackite;
+    font-weight: normal;
+    font-size: 25px;
+  }
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+  header {
+    height: 200px;
+  }
+
+  h3 {
+    color: black;
+    font-weight: normal;
+    font-size: 25px;
+  }
+}
